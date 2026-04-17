@@ -1,10 +1,12 @@
 #include <gtk/gtk.h>
 #include "ui.h"
 
-// Archivo principal: inicia la aplicación, es necesario instalar GTK4:
+// Archivo principal: inicia la aplicación, !!es necesario instalar GTK4:
 //       sudo apt install libgtk-4-dev pkg-config
 //Para compilar:
 //       gcc $(pkg-config --cflags gtk4) main.c ui.c -o main $(pkg-config --libs gtk4)
+//Puede que en vs studio code salga error en el "#include <gtk/gtk.h>", si es que gtk4
+//esta correctamente instalado y además la app compila bien: se puede ignorar el error.
 
 static void
 app_activate(GApplication *app, gpointer user_data)
