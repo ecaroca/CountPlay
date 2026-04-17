@@ -47,7 +47,7 @@ build_ui(GtkApplication *app)
     {"C", "0", "=", "+"} };
 
     win = gtk_application_window_new(app);
-    gtk_window_set_title(GTK_WINDOW(win), "Calculadora");
+    gtk_window_set_title(GTK_WINDOW(win), "CountPlay");
     gtk_window_set_default_size(GTK_WINDOW(win), 400, 300);
 
     box1 = gtk_box_new(GTK_ORIENTATION_VERTICAL, 10);
