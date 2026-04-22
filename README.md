@@ -37,7 +37,3 @@ Desarrollar una calculadora en lenguaje C que permita resolver operaciones matem
 - Resta
 - Multiplicación
 - División (con validación de división por cero)
-
-### 2. Gráfica de función simple
-- Permite graficar funciones tipo: `y = x^2`
-- Representación en consola usando caracteres `*`
